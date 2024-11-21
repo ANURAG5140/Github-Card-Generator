@@ -1,0 +1,108 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f4f6; 
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Main container */
+#main_div {
+    width: 100%;
+    max-width: 600px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Title section */
+#title h1 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Input field section */
+#input_field {
+    margin-bottom: 20px;
+}
+
+#input_field label {
+    font-size: 16px;
+    color: #555;
+    display: block;
+    margin-bottom: 8px;
+}
+
+#input {
+    width: 80%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    margin-bottom: 10px;
+    transition: border-color 0.3s;
+}
+
+#input:focus {
+    border-color: #007bff; 
+}
+
+#input_field button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#input_field button:hover {
+    background-color: #0056b3;
+}
+
+/* Card display section */
+#show_card {
+    margin-top: 20px;
+}
+
+#show_card img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#show_card h1 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+#show_card p {
+    font-size: 14px;
+    color: #555;
+    margin: 5px 0;
+    text-align: left;
+}
+
+#show_card a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+#show_card a:hover {
+    text-decoration: underline;
+}
+
+
